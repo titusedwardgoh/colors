@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Color Scheme Generator</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <header class="site-header">
+            <input type="color" value="#e3e8ea" id="intial-color"/>
+            <select name="color-type" id="color-type">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="complement">Triad</option>
+            </select>
+            <button id="Gcs">Get color scheme</button>
+		</header>
+        <section class="palette">
+        </section>
+        <footer class="footer-container" id="footer-container">
+        </footer>
+    </body>
+    <script src="index.js" type="module"></script>
+</html>
